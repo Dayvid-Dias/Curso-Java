@@ -4,9 +4,7 @@ import AulaModulo2.Screenmatch.br.com.alura.screenmatch.modelos.Filme;
 import AulaModulo2.Screenmatch.br.com.alura.screenmatch.modelos.Serie;
 import AulaModulo2.Screenmatch.br.com.alura.screenmatch.modelos.Titulo;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
+import java.util.*;
 
 public class PrincipalComListas {
     public static void main(String[] args) {
@@ -20,7 +18,7 @@ public class PrincipalComListas {
 
         Filme f1 = filmeDoPaulo;
 
-        ArrayList<Titulo> lista = new ArrayList<>();
+        List<Titulo> lista = new LinkedList<>();
         lista.add(filmeDoPaulo);
         lista.add(meuFilme);
         lista.add(outroFilme);
@@ -30,8 +28,6 @@ public class PrincipalComListas {
             if (item instanceof Filme filme && filmeDoPaulo.getClassificacao() > 2){
                 System.out.println("Classificação " + filme.getClassificacao());
             }
-
-
         }
 
         ArrayList<String> buscaPorArtista = new ArrayList<>();
@@ -43,7 +39,12 @@ public class PrincipalComListas {
         Collections.sort(buscaPorArtista);
         System.out.println("\nDepois da ordenação: \n");
         System.out.println(buscaPorArtista);
-
+        System.out.println("\n Lista de títulos ordenados:");
+        Collections.sort(lista);
+        System.out.println(lista);
+        lista.sort(Comparator.comparing(Titulo::getAnoDeLancamento));
+        System.out.println("\nOrdenando por ano:\n");
+        System.out.println(lista);
 
     }
 }
