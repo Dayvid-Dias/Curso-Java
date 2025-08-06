@@ -16,7 +16,8 @@ public class PrincipalComListas {
         filmeDoPaulo.avalia(10);
         Serie lost = new Serie("Lost", 2000);
 
-        Filme f1 = filmeDoPaulo;
+
+        //Filme f1 = filmeDoPaulo;
 
         List<Titulo> lista = new LinkedList<>();
         lista.add(filmeDoPaulo);
