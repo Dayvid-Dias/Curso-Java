@@ -20,7 +20,7 @@ Aqui estão alguns dos certificados que conquistei durante esses cursos:
 
 - [Java: Criando a sua primeira aplicacão - Alura](https://cursos.alura.com.br/formalCertificate/f010bab6-fd3f-4fba-a8e2-a222a7478555)
 - [Java: Aplicando a Orientação a Objetos - Alura](https://cursos.alura.com.br/formalCertificate/692ecb83-2f0c-496d-bd7c-e81b538c13c0)
-- Java: Trabalhando com listas e coleções de dados - Alura ⏳ *Em andamento*
+- [Java: Trabalhando com listas e coleções de dados - Alura](https://cursos.alura.com.br/formalCertificate/36718304-032f-498a-a253-aad2ec76f662)
 
 ## 👨‍💻 Sobre
 Esses exercícios fazem parte da minha jornada de aprendizado em programação back-end com Java.  
