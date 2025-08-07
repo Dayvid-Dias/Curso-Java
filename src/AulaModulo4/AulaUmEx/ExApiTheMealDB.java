@@ -1,4 +1,4 @@
-package AulaModulo4;
+package AulaModulo4.AulaUmEx;
 
 import java.io.IOException;
 import java.net.URI;
