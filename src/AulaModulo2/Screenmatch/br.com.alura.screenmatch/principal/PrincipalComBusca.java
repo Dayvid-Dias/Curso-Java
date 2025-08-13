@@ -17,6 +17,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import static java.net.http.HttpResponse.BodyHandlers.ofString;
+
 public class PrincipalComBusca {
     public static void main(String[] args) throws IOException, InterruptedException {
         Scanner leitura = new Scanner(System.in);
@@ -43,7 +45,7 @@ public class PrincipalComBusca {
                         .uri(URI.create(endereco))
                         .build();
                 HttpResponse<String> response = client
-                        .send(request, HttpResponse.BodyHandlers.ofString());
+                        .send(request, ofString());
                 String json = response.body();
                 System.out.println(json);
 
