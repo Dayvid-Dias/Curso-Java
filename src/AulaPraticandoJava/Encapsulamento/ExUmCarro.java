@@ -1,4 +1,4 @@
-package AulaPraticandoJava.DataHora;
+package AulaPraticandoJava.Encapsulamento;
 
 public class ExUmCarro {
     private String nome;
